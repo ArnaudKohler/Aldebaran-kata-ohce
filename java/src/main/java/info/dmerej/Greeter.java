@@ -7,8 +7,7 @@ public class Greeter {
     this.clock = new SystemClock();
   }
 
-  public String greet() {
-    int currentHour = clock.getCurrentHour();
+  public String greet(int currentHour) {
     if (currentHour >= 6 && currentHour < 12) {
       return "Good morning";
     }

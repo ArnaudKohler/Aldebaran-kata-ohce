@@ -29,7 +29,7 @@ public class GreeterTest {
     }
   }
 
-  class FakeClock extends SystemClock {
+  class FakeClock implements ClockInterface {
     private int fixedHour;
 
     public FakeClock(int fixedHour) {

@@ -1,9 +1,9 @@
 package info.dmerej;
 
 public class Greeter {
-  private final SystemClock clock;
+  private final ClockInterface clock;
 
-  public Greeter(SystemClock clock) {
+  public Greeter(ClockInterface clock) {
     this.clock = clock;
   }
 

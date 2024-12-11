@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ConsoleInteractor {
+public class ConsoleInteractor implements InteractorInterface {
   public String readInput() {
     BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     try {

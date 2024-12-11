@@ -1,9 +1,9 @@
 package info.dmerej;
 
 public class Ohce {
-  private final ConsoleInteractor interactor;
+  private final InteractorInterface interactor;
 
-  public Ohce(ConsoleInteractor interactor) {
+  public Ohce(InteractorInterface interactor) {
     this.interactor = interactor;
   }
 

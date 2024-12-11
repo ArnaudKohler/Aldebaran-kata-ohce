@@ -32,7 +32,7 @@ public class OhceTest {
     assertEquals(fakeInteractor.getReversedMessages(), expectedMessages);
   }
 
-  class FakeInteractor extends ConsoleInteractor {
+  class FakeInteractor implements InteractorInterface {
     private final String[] inputs;
     private int index = 0;
     public ArrayList<String> reversedMessages = new ArrayList<>();
